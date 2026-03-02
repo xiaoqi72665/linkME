@@ -4,7 +4,7 @@ import Galaxy from './components/Galaxy.vue';
 import CircularText from './components/CircularText.vue';
 import StarBorder from './components/StarBorder.vue';
 import Counter from './components/Counter.vue';
-import { NotebookPen, Newspaper, Gamepad2, X } from 'lucide-vue-next';
+import { NotebookPen, Briefcase, Newspaper, Gamepad2, X } from 'lucide-vue-next';
 import { siAfdian, siXiaohongshu, siBilibili } from 'simple-icons';
 
 const MusicPlaylist = defineAsyncComponent(() => import('./components/MusicPlaylist.vue'));
@@ -14,6 +14,7 @@ const getSimpleIconPath = (icon: any) => icon.path;
 
 const mainLinks = [
   { label: 'Personal Blog', href: 'https://blog.jisuk.top/', iconComponent: NotebookPen },
+  { label: 'Portfolio', href: 'https://cvweb.2536319853.workers.dev', iconComponent: Briefcase },
   { label: 'News Stream', href: 'https://news.jisuk.top/', iconComponent: Newspaper },
   { label: 'Sims4 Mods', href: 'https://sims.jisuk.top/', iconComponent: Gamepad2 }
 ];
