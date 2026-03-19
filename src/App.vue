@@ -14,7 +14,7 @@ const getSimpleIconPath = (icon: any) => icon.path;
 
 const mainLinks = [
   { label: 'Personal Blog', href: 'https://blog.jisuk.top/', iconComponent: NotebookPen },
-  { label: 'Portfolio', href: 'https://cvweb.2536319853.workers.dev', iconComponent: Briefcase },
+  { label: 'Portfolio', href: 'https://cv.jisuk.top', iconComponent: Briefcase },
   { label: 'News Stream', href: 'https://news.jisuk.top/', iconComponent: Newspaper },
   { label: 'Sims4 Mods', href: 'https://sims.jisuk.top/', iconComponent: Gamepad2 }
 ];
